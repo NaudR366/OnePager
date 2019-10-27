@@ -1,0 +1,78 @@
+#t12 {
+    position: relative;
+    text-align: center;
+    width: 400px; 
+    margin: 5px auto;
+    top: 50px;
+    left: 60px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 150px;
+    color: white;
+    text-shadow: 5px 2px #000000;
+
+}
+
+
+.background {
+    background-image: url(../tankgbg.jpg);
+    background-size: cover;
+    width: 90%; 
+    height: 1080px;
+}
+
+#tank1 {
+    position: relative;
+    display: flex;  
+    margin: 10px auto;
+    width: 35%;
+    animation: tankMove 30s infinite;
+}
+
+
+ .quote {
+    position: relative;
+    text-align: center;
+    width: 100%; 
+    margin: 50px auto;
+    top: 50px;
+    left: 60px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color: black;
+    text-shadow: 5px 2px white;
+  }
+
+#features {
+    position: relative;
+    text-align: center;
+    width: 400px; 
+    margin: 5px auto;
+    top: 10px;
+    left: 60px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 2px #000000;
+}   
+
+@keyframes tankMove {
+    0% {
+        transform: translateX(1300px)
+    }
+    100% {
+        transform: translateX(-1300px)
+    }
+}
+  
+@keyframes textFade {
+    from {
+        opacity: 0;
+    
+    } 
+    to {
+        opacity: 100;
+    
+        }
+    }
+
+    
